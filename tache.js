@@ -6,7 +6,7 @@ let mesChoix = [];
 
 // 3. Pour CHAQUE carte, je lui dis : quand on te clique, fais ça...
 toutesLesCartes.forEach(carte => {
-  carte.addEventListener("click", () => }
+  carte.addEventListener("click", () => {
     
     // a) Tu deviens bleue / tu redeviens grise
     carte.classList.toggle("selectionne");
